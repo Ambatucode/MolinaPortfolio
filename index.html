@@ -142,13 +142,11 @@
             <button class="navbar-link" data-nav-link>Resume</button>
           </li>
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link>Activities</button>
           </li>
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
+             <button class="navbar-link" data-nav-link>Integrated Web Services</button>
           </li>
         </ul>
       </nav>
@@ -308,75 +306,93 @@ in-between drawings, digital production, and workplace competency skills.</p>
       <!--
         - #PORTFOLIO (FIXED: Added data-page="portfolio")
       -->
-      <article class="portfolio" data-page="portfolio">
+      <article class="portfolio" data-page="activities">
         <header>
           <h2 class="h2 article-title">Activities</h2>
         </header>
 
         <section class="projects">
           <ul class="filter-list">
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-          </ul>
+  <li class="filter-item">
+    <button class="active" data-filter-btn>All</button>
+  </li>
+  <li class="filter-item">
+    <button data-filter-btn>Group Activities</button>
+  </li>
+  <li class="filter-item">
+    <button data-filter-btn>Individual Activities</button>
+  </li>
+</ul>
 
-          <div class="filter-select-box">
-            <button class="filter-select" data-select>
-              <div class="select-value" data-selecct-value>Select category</div>
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-            </button>
-            <ul class="select-list">
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-            </ul>
-          </div>
+<div class="filter-select-box">
+  <button class="filter-select" data-select>
+    <div class="select-value" data-selecct-value>Select category</div>
+    <div class="select-icon">
+      <ion-icon name="chevron-down"></ion-icon>
+    </div>
+  </button>
+  <ul class="select-list">
+    <li class="select-item">
+      <button data-select-item>All</button>
+    </li>
+    <li class="select-item">
+      <button data-select-item>Group Activities</button>
+    </li>
+    <li class="select-item">
+      <button data-select-item>Individual Activities</button>
+    </li>
+  </ul>
+</div>
 
-          <ul class="project-list">
-            <li class="project-item active" data-filter-item data-category="web development">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-                <h3 class="project-title">Finance</h3>
-                <p class="project-category">Web development</p>
-              </a>
-            </li>
-            <li class="project-item active" data-filter-item data-category="web development">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-                <h3 class="project-title">Orizon</h3>
-                <p class="project-category">Web development</p>
-              </a>
-            </li>
+          <li class="project-item active" data-filter-item data-category="group activities">
+  <div class="project-card">
+    <figure class="project-img">
+      <div class="project-item-icon-box" onclick="event.stopPropagation(); window.open('./assets/images/checkot ishikawa.png', '_blank')">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+      <img src="./assets/images/checkot ishikawa.png" alt="Ishikawa Diagram" loading="lazy">
+    </figure>
+  </div>
+</li>
+
+<li class="project-item active" data-filter-item data-category="group activities">
+  <div class="project-card">
+    <figure class="project-img">
+      <div class="project-item-icon-box" onclick="event.stopPropagation(); window.open('./assets/images/checkot ishikawa.png', '_blank')">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+      <img src="./assets/images/javacode.png" alt="Java Code" loading="lazy">
+    </figure>
+
+  </div>
+</li>
+
+<li class="project-item active" data-filter-item data-category="group activities">
+  <div class="project-card">
+    <figure class="project-img">
+      <div class="project-item-icon-box" onclick="event.stopPropagation(); window.open('./assets/images/checkot ishikawa.png', '_blank')">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+      <img src="./assets/images/pctweak.png" alt="PC Tweak" loading="lazy">
+    </figure>
+
+  </div>
+</li>
+
+  <div class="project-card">
+    <li class="project-item active" data-filter-item data-category="individual activities">
+  <div class="project-card">
+    <figure class="project-img">
+      <div class="project-item-icon-box" onclick="event.stopPropagation(); window.open('./assets/images/checkot ishikawa.png', '_blank')">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+      <img src="./assets/images/checkot ishikawa.png" alt="Ishikawa Diagram" loading="lazy">
+    </figure>
+    <h3 class="project-title">Individual Activities</h3>
+  </div>
+</li>
+  </div>
+</li>
             <li class="project-item active" data-filter-item data-category="web design">
               <a href="#">
                 <figure class="project-img">
@@ -392,88 +408,62 @@ in-between drawings, digital production, and workplace competency skills.</p>
           </ul>
         </section>
       </article>
-
-      <!--
-        - #BLOG (FIXED: Added data-page="blog")
-      -->
-      <article class="blog" data-page="blog">
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-          <ul class="blog-posts-list">
-            <li class="blog-post-item">
-              <a href="#">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-                <div class="blog-content">
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-                    <span class="dot"></span>
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-                  <p class="blog-text">Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
-                </div>
-              </a>
-            </li>
-            <li class="blog-post-item">
-              <a href="#">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-                <div class="blog-content">
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-                    <span class="dot"></span>
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-                  <p class="blog-text">Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.</p>
-                </div>
-              </a>
-            </li>
-          </ul>
-        </section>
-      </article>
-
       <!--
         - #CONTACT (FIXED: Added data-page="contact")
       -->
-      <article class="contact" data-page="contact">
+      <article class="contact" data-page="integrated web services">
   <header>
-    <h2 class="h2 article-title">Contact</h2>
+    <h2 class="h2 article-title"></h2>
   </header>
 
+  <!-- Google Maps Location -->
+<article class="contact" data-page="integrated web services">
+  <header>
+    <h2 class="h2 article-title">Integrated Web Services</h2>
+  </header>
+
+  <!-- Google Maps -->
   <section class="mapbox" data-mapbox>
     <figure>
-      <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123715.6448180875!2d120.95226487645709!3d14.705446761253377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b0f1d1c8c6c7%3A0x9e6e8e8e8e8e8e8e!2sValenzuela%2C%20Metro%20Manila%2C%20Philippines!5e0!3m2!1sen!2sph!4v1647608789441!5m2!1sen!2sph" 
-        width="400" 
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123715.6448180875!2d120.95226487645709!3d14.705446761253377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b0f1d1c8c6c7%3A0x9e6e8e8e8e8e8e8e!2sValenzuela%2C%20Metro%20Manila%2C%20Philippines!5e0!3m2!1sen!2sph!4v1647608789441!5m2!1sen!2sph"
+        width="100%" 
         height="300" 
-        loading="lazy">
+        loading="lazy"
+        style="border-radius: 16px;">
       </iframe>
     </figure>
   </section>
 
-  <section class="contact-form">
-    <h3 class="h3 form-title">Contact Form</h3>
-    <form action="#" class="form" data-form>
-      <div class="input-wrapper">
-        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-      </div>
-      <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-      <button class="form-btn" type="submit" disabled data-form-btn>
-        <ion-icon name="paper-plane"></ion-icon>
-        <span>Send Message</span>
-      </button>
-    </form>
-  </section>
-</article>
+ <!-- Google Sheets - Clean version -->
+<section class="contact-form">
+  <h3 class="h3 form-title">📊 Google Sheets Data</h3>
+  <div style="position: relative; width: 100%; height: 450px; overflow: hidden; border-radius: 16px;">
+    <iframe 
+      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSc8_29wdfIpvA7fmpb48M3gyGGaOpMwi0EDFWzqTeawa1_XvlRZvbvhfrxPCLfcx_SV1XAV1L3jf-t/pubhtml?widget=true&amp;headers=false"
+      width="100%" 
+      height="100%" 
+      style="border: none; position: absolute; top: 0; left: 0;">
+    </iframe>
+  </div>
+</section>
 
+<!-- Google Forms - Clean version -->
+<section class="contact-form">
+  <h3 class="h3 form-title">📝 Feedback Form</h3>
+  <div style="position: relative; width: 100%; height: 600px; overflow: hidden; border-radius: 16px;">
+    <iframe 
+      src="https://docs.google.com/forms/d/e/1FAIpQLSfGDBrozjw008q8kf1Ulk99uAJziZcdYcterGY1yJZYAsCfNQ/viewform?embedded=true" 
+      width="100%" 
+      height="100%" 
+      frameborder="0" 
+      marginheight="0" 
+      marginwidth="0"
+      style="border: none; position: absolute; top: 0; left: 0;">
+      Loading…
+    </iframe>
+  </div>
+</section>
     </div>
 
   </main>
