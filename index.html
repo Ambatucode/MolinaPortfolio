@@ -37,11 +37,11 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+          <img src="./assets/images/niggasprofile.png" alt="Christian Molina" width="80">
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Christian Molina</h1>
+          <h1 class="name" title="Christian Molina">Christian Molina</h1>
           <p class="title">IT Student</p>
         </div>
 
@@ -101,22 +101,11 @@
         <div class="separator"></div>
 
         <ul class="social-list">
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-        </ul>
+        <li class="social-item">
+        <a href="https://www.facebook.com/christian.molina.679106" target="_blank" class="social-link">
+        <ion-icon  ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        </li>
 
       </div>
 
@@ -144,6 +133,8 @@
             <button class="navbar-link" data-nav-link>Activities</button>
           </li>
           <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Reflection</button>
+          </li>
           <li class="navbar-item">
              <button class="navbar-link" data-nav-link>Integrated Web Services</button>
           </li>
@@ -272,8 +263,8 @@ in-between drawings, digital production, and workplace competency skills.</p>
         
       </article>
 
-      <!--
-        - #PORTFOLIO (FIXED: Added data-page="portfolio")
+            <!--
+        - #ACTIVITIES (FIXED)
       -->
       <article class="portfolio" data-page="activities">
         <header>
@@ -282,143 +273,319 @@ in-between drawings, digital production, and workplace competency skills.</p>
 
         <section class="projects">
           <ul class="filter-list">
-  <li class="filter-item">
-    <button class="active" data-filter-btn>All</button>
-  </li>
-  <li class="filter-item">
-    <button data-filter-btn>Group Activities</button>
-  </li>
-  <li class="filter-item">
-    <button data-filter-btn>Individual Activities</button>
-  </li>
-</ul>
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Group Activities</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Individual Activities</button>
+            </li>
+          </ul>
 
-<div class="filter-select-box">
-  <button class="filter-select" data-select>
-    <div class="select-value" data-selecct-value>Select category</div>
-    <div class="select-icon">
-      <ion-icon name="chevron-down"></ion-icon>
-    </div>
-  </button>
-  <ul class="select-list">
-    <li class="select-item">
-      <button data-select-item>All</button>
-    </li>
-    <li class="select-item">
-      <button data-select-item>Group Activities</button>
-    </li>
-    <li class="select-item">
-      <button data-select-item>Individual Activities</button>
-    </li>
-  </ul>
-</div>
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Group Activities</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Individual Activities</button>
+              </li>
+            </ul>
+          </div>
 
-          <li class="project-item active" data-filter-item data-category="group activities">
-  <div class="project-card">
-    <figure class="project-img">
-      <div class="project-item-icon-box" onclick="event.stopPropagation(); window.open('./assets/images/checkot ishikawa.png', '_blank')">
-        <ion-icon name="eye-outline"></ion-icon>
-      </div>
-      <img src="./assets/images/checkot ishikawa.png" alt="Ishikawa Diagram" loading="lazy">
-    </figure>
-  </div>
-</li>
+          <ul class="project-list">
+            
+            <!-- GROUP ACTIVITIES -->
+            
+            <!-- Group Activity 1: Ishikawa Diagram -->
+            <li class="project-item active" data-filter-item data-category="group activities">
+              <div class="project-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box" onclick="window.open('./assets/pdf/ishikawa.pdf', '_blank')">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/checkot ishikawa.png" alt="Ishikawa Diagram" loading="lazy">
+                </figure>
+                <h3 class="project-title">Prelim</h3>
+                <h3 class="project-title">Ishikawa Diagram - Checkot</h3>
+              </div>
+            </li>
 
-<li class="project-item active" data-filter-item data-category="group activities">
-  <div class="project-card">
-    <figure class="project-img">
-      <div class="project-item-icon-box" onclick="event.stopPropagation(); window.open('./assets/images/checkot ishikawa.png', '_blank')">
-        <ion-icon name="eye-outline"></ion-icon>
-      </div>
-      <img src="./assets/images/javacode.png" alt="Java Code" loading="lazy">
-    </figure>
+            <!-- Group Activity 2: Java Code -->
+            <li class="project-item active" data-filter-item data-category="group activities">
+              <div class="project-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box" onclick="window.open('./assets/pdf/ishikawa.pdf', '_blank')">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/javacode.png" alt="Java Code" loading="lazy">
+                </figure>
+                <h3 class="project-title">Prelim</h3>
+                <h3 class="project-title">Ishikawa Diagram - AI Plagiarism</h3>
+              </div>
+            </li>
 
-  </div>
-</li>
+            <!-- Group Activity 3: PC Tweak -->
+            <li class="project-item active" data-filter-item data-category="group activities">
+              <div class="project-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box" onclick="window.open('./assets/pdf/ishikawa.pdf', '_blank')">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/pctweak.png" alt="PC Tweak" loading="lazy">
+                </figure>
+                <h3 class="project-title">Prelim</h3>
+                <h3 class="project-title">Ishikawa Diagram - Pc Tweak</h3>
+              </div>
+            </li>
 
-<li class="project-item active" data-filter-item data-category="group activities">
-  <div class="project-card">
-    <figure class="project-img">
-      <div class="project-item-icon-box" onclick="event.stopPropagation(); window.open('./assets/images/checkot ishikawa.png', '_blank')">
-        <ion-icon name="eye-outline"></ion-icon>
-      </div>
-      <img src="./assets/images/pctweak.png" alt="PC Tweak" loading="lazy">
-    </figure>
+            <!-- Group Activity 4: Bottom-up and Top-down approach -->
+            <li class="project-item active" data-filter-item data-category="group activities">
+              <div class="project-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box" onclick="window.open('./assets/images/firstreportzy.png', '_blank')">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/firstreportzy.png" alt="Bottom-up and Top-down approach" loading="lazy">
+                </figure>
+                <h3 class="project-title">Prelim</h3>
+                <h3 class="project-title">Bottom-up and Top-down Approach</h3>
+              </div>
+            </li>
 
-  </div>
-</li>
+            <!-- Group Activity 5: Entity Relationship Diagram -->
+            <li class="project-item active" data-filter-item data-category="group activities">
+              <div class="project-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box" onclick="window.open('./assets/images/entity.jpg', '_blank')">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/entity.jpg" alt="Entity Relationship Diagram" loading="lazy">
+                </figure>
+                <h3 class="project-title">Prelim</h3>
+                <h3 class="project-title">Entity Relationship Diagram</h3>
+              </div>
+            </li>
 
-  <div class="project-card">
-    <li class="project-item active" data-filter-item data-category="individual activities">
-  <div class="project-card">
-    <figure class="project-img">
-      <div class="project-item-icon-box" onclick="event.stopPropagation(); window.open('./assets/images/checkot ishikawa.png', '_blank')">
-        <ion-icon name="eye-outline"></ion-icon>
-      </div>
-      <img src="./assets/images/checkot ishikawa.png" alt="Ishikawa Diagram" loading="lazy">
-    </figure>
-    <h3 class="project-title">Individual Activities</h3>
-  </div>
-</li>
-  </div>
+            <!-- Group Activity 6: Olsa -->
+            <li class="project-item active" data-filter-item data-category="group activities">
+              <div class="project-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box" onclick="window.open('./assets/pdf/our-lady-of-saint-alvarez.pdf', '_blank')">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/olsatzy.png" alt="Olsa" loading="lazy">
+                </figure>
+                <h3 class="project-title">Prelim</h3>
+                <h3 class="project-title">Integrated School Management System</h3>
+              </div>
+            </li>
 
+            <!-- Group Activity 7: Capstone Aligned Project -->
+            <li class="project-item active" data-filter-item data-category="group activities">
+              <div class="project-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box" onclick="window.open('./assets/pdf/Molinatzy_Integrative.pdf', '_blank')">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/collabmidterm.png" alt="Capstone Aligned Project" loading="lazy">
+                </figure>
+                <h3 class="project-title">Midterm</h3>
+                <h3 class="project-title">Capstone Aligned Project</h3>
+              </div>
+            </li>
+
+            <!-- ========== INDIVIDUAL ACTIVITIES ========== -->
+            <!-- Add your Individual Activities HERE -->
+
+            <li class="project-item active" data-filter-item data-category="individual activities">
+              <div class="project-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box" onclick="window.open('./assets/pdf/integra-individual.pdf', '_blank')">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/inteindi.png" alt="Individual Activity" loading="lazy">
+                </figure>
+                <h3 class="project-title">Midterm</h3>
+                <p class="project-category">Project Based Test</p>
+              </div>
+            </li>
+
+            <!-- Add more individual activities below -->
+
+            
+
+          </ul>
+        </section>
       </article>
+      
       <!--
-        - #CONTACT (FIXED: Added data-page="contact")
+  - #REFLECTION
+-->
+<article class="reflection" data-page="reflection">
+  <header>
+    <h2 class="h2 article-title">Reflection</h2>
+  </header>
+
+  <section class="about-text">
+    
+    <p>
+      <strong>📌 PRELIM REFLECTION</strong>
+    </p>
+    <p>
+      During the prelim period, I learned about Data Warehousing, the Design Process, Warehouse Architecture, 
+      Warehouse Models, Metadata, Schema Design, and OLAP. The technical topics were challenging at first, 
+      especially understanding schema design and how the architecture functions.
+    </p>
+    <p>
+      What made this term meaningful was that our activities required more than just memorization. We had to 
+      apply the concepts to real-world scenarios, which helped me understand their practical value.
+    </p>
+
+    <p>
+      <strong>📌 MIDTERM REFLECTION</strong>
+    </p>
+    <p>
+      During midterms, we worked on a Project-Based Test with my Capstone group. We were given four tasks 
+      to complete as a team.
+    </p>
+    <p>
+      This term felt easier for me because the lessons focused on basic data computations like SUM, COUNT, 
+      MIN, MAX, MEAN, MEDIAN, MODE, and ranking. These topics were straightforward and easy to grasp.
+    </p>
+
+    <p>
+      <strong>📌 FINAL TERM REFLECTION</strong>
+    </p>
+    <p>
+      For the final term, we were tasked to create an E-Portfolio using Google Sites. The portfolio includes 
+      our personal profile, reflections, activities, and group projects. This also connects to our 
+      Integrative Programming 1 subject.
+    </p>
+    <p>
+      The goal was to make the E-Portfolio look professional, clean, and organized. In my profile section, 
+      I highlighted my achievements as a learner.
+    </p>
+    <p>
+      Before we started building the E-Portfolio, our professor had us submit our website link through a 
+      Google Form as an individual activity, even though the site was still empty at the time.
+    </p>
+
+  </section>
+</article>
+      
+
+      <!--
+        - #INTEGRATED WEB SERVICES
       -->
       <article class="contact" data-page="integrated web services">
-  <header>
-    <h2 class="h2 article-title"></h2>
-  </header>
+        <header>
+          <h2 class="h2 article-title"></h2>
+        </header>
 
-  <!-- Google Maps Location -->
-<article class="contact" data-page="integrated web services">
-  <header>
-    <h2 class="h2 article-title">Integrated Web Services</h2>
-  </header>
+        <!-- Google Sheets -->
+        <section class="contact-form">
+          <h3 class="h3 form-title">📊 Google Sheets Data</h3>
+          <div style="position: relative; width: 100%; height: 450px; overflow: hidden; border-radius: 16px;">
+            <iframe 
+              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRYu-Cpw8y8kqi1a_wENu9JmXCSJjeSbxmwzsrvPIPgDJIHAhZueR6Tl8HbWw5mAqz7J1UlYdK3NwNl/pubhtml"
+              width="100%" 
+              height="100%" 
+              style="border: none; position: absolute; top: 0; left: 0;">
+            </iframe>
+          </div>
+        </section>
 
-  <!-- Google Maps -->
-  <section class="mapbox" data-mapbox>
-    <figure>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123715.6448180875!2d120.95226487645709!3d14.705446761253377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b0f1d1c8c6c7%3A0x9e6e8e8e8e8e8e8e!2sValenzuela%2C%20Metro%20Manila%2C%20Philippines!5e0!3m2!1sen!2sph!4v1647608789441!5m2!1sen!2sph"
-        width="100%" 
-        height="300" 
-        loading="lazy"
-        style="border-radius: 16px;">
-      </iframe>
-    </figure>
-  </section>
+        <!-- Google Forms -->
+        <section class="contact-form">
+          <h3 class="h3 form-title">📝 Feedback Form</h3>
+          <div style="position: relative; width: 100%; height: 600px; overflow: hidden; border-radius: 16px;">
+            <iframe 
+              src="https://docs.google.com/forms/d/e/1FAIpQLSfF8WSZ2Wc0f9YQHaE8XHQIe9aEMp4ZBOTmp1eKKtGgEeR_Hg/viewform?usp=dialog" 
+              width="100%" 
+              height="100%" 
+              frameborder="0" 
+              marginheight="0" 
+              marginwidth="0"
+              style="border: none; position: absolute; top: 0; left: 0;">
+              Loading…
+            </iframe>
+          </div>
+        </section>
 
- <!-- Google Sheets - Clean version -->
-<section class="contact-form">
-  <h3 class="h3 form-title">📊 Google Sheets Data</h3>
-  <div style="position: relative; width: 100%; height: 450px; overflow: hidden; border-radius: 16px;">
-    <iframe 
-      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRYu-Cpw8y8kqi1a_wENu9JmXCSJjeSbxmwzsrvPIPgDJIHAhZueR6Tl8HbWw5mAqz7J1UlYdK3NwNl/pubhtml"
-      width="100%" 
-      height="100%" 
-      style="border: none; position: absolute; top: 0; left: 0;">
-    </iframe>
-  </div>
-</section>
+        <!-- Google Maps -->
+        <h3 class="h3 form-title">Google Maps</h3>
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123715.6448180875!2d120.95226487645709!3d14.705446761253377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b0f1d1c8c6c7%3A0x9e6e8e8e8e8e8e8e!2sValenzuela%2C%20Metro%20Manila%2C%20Philippines!5e0!3m2!1sen!2sph!4v1647608789441!5m2!1sen!2sph"
+              width="100%" 
+              height="300" 
+              loading="lazy"
+              style="border-radius: 16px;">
+            </iframe>
+          </figure>
+        </section>
 
-<!-- Google Forms - Clean version -->
-<section class="contact-form">
-  <h3 class="h3 form-title">📝 Feedback Form</h3>
-  <div style="position: relative; width: 100%; height: 600px; overflow: hidden; border-radius: 16px;">
-    <iframe 
-      src="https://docs.google.com/forms/d/e/1FAIpQLSfF8WSZ2Wc0f9YQHaE8XHQIe9aEMp4ZBOTmp1eKKtGgEeR_Hg/viewform?usp=dialog" 
-      width="100%" 
-      height="100%" 
-      frameborder="0" 
-      marginheight="0" 
-      marginwidth="0"
-      style="border: none; position: absolute; top: 0; left: 0;">
-      Loading…
-    </iframe>
-  </div>
-</section>
+        <section class="contact-form">
+        <h3 class="h3 form-title">How to Add Google Form in Website! (Quick & Easy)</h3>
+        <div style="position: relative; width: 100%; height: 315px; border-radius: 16px; overflow: hidden;">
+        <iframe 
+          width="100%" 
+          height="100%" 
+          src="https://www.youtube.com/embed/U4W7sqtDUyo" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          style="border: none;">
+        </iframe>
+        </div>
+        </section>
+
+        <section class="contact-form">
+        <h3 class="h3 form-title"></h3>
+        <div style="position: relative; width: 100%; height: 315px; border-radius: 16px; overflow: hidden;">
+        <iframe 
+          width="100%" 
+          height="100%" 
+          src="https://www.youtube.com/embed/fP5cjS98Ndw?si=NuLgfep0Is1OZkr0"  
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          style="border: none;">
+        </iframe>
+        </div>
+        </section>
+
+        <section class="contact-form">
+        <h3 class="h3 form-title"></h3>
+        <h3 class="h3 form-title">🐙 GitHub Repository</h3>
+        <div class="service-item" style="text-align: center;">
+          <ion-icon name="logo-github" style="font-size: 48px; color: var(--orange-yellow-crayola);"></ion-icon>
+          <h4 class="h4 service-item-title" style="margin-top: 15px;">View My Portfolio Source Code</h4>
+          <p class="service-item-text">Check out the code behind this portfolio on GitHub</p>
+          <a href="https://github.com/Ambatucode/MolinaPortfolio" target="_blank" 
+            style="display: inline-block; margin-top: 15px; background: var(--orange-yellow-crayola); color: black; padding: 10px 20px; border-radius: 8px; text-decoration: none;">
+            View on GitHub →
+          </a>
+        </div>
+      </section>
+
+        
+      </article>
+      
+      
     </div>
 
   </main>
