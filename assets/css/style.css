@@ -1731,3 +1731,28 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-right: auto;
   }
 }
+
+/* Force center on mobile */
+@media (max-width: 580px) {
+  .main-content {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  article.contact {
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 15px !important;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-form > div {
+    width: 100%;
+    max-width: 100%;
+  }
+}
